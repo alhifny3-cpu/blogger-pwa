@@ -1,15 +1,15 @@
 {
-  "name": "My Blog",
-  "short_name": "My Blog",
-  "description": "My blog description goes here...",
+  "name": "TAHFIDZKU - Pondok Pesantren Abdussalam",
+  "short_name": "TAHFIDZKU",
+  "description": "Aplikasi tahfidz, setoran Al-Qur'an, absensi, halaqah, dan layanan santri Pondok Pesantren Abdussalam.",
   "dir": "auto",
-  "lang": "en-US",
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "lang": "id-ID",
+  "background_color": "#F7FAF8",
+  "theme_color": "#087A55",
   "display": "standalone",
   "orientation": "natural",
-  "scope": "https://blogger-pwa.blogspot.com/",
-  "start_url": "https://blogger-pwa.blogspot.com/?utm_source=homescreen",
+  "scope": "https://tahfidz-pp-abdussalam.blogspot.com/",
+  "start_url": "https://tahfidz-pp-abdussalam.blogspot.com/?utm_source=homescreen",
   "id": "/",
   "prefer_related_applications": false,
   "icons": [
@@ -121,22 +121,10 @@
           "sizes": "96x96"
         }
       ],
-      "name": "Shortcut 1",
-      "short_name": "Shortcut 1",
-      "description": "Shortcut 1 description goes here...",
-      "url": "https://blogger-pwa.blogspot.com/search/label/shortcut-1?utm_source=homescreen"
-    },
-    {
-      "icons": [
-        {
-          "src": "icons/android-chrome-96x96.png",
-          "sizes": "96x96"
-        }
-      ],
-      "name": "Shortcut 2",
-      "short_name": "Shortcut 2",
-      "description": "Shortcut 2 description goes here...",
-      "url": "https://blogger-pwa.blogspot.com/search/label/shortcut-2?utm_source=homescreen"
+      "name": "Buka Aplikasi TAHFIDZKU",
+      "short_name": "Buka Aplikasi",
+      "description": "Masuk ke aplikasi TAHFIDZKU",
+      "url": "https://tahfidz-pp-abdussalam.blogspot.com/?utm_source=homescreen"
     }
   ]
 }
