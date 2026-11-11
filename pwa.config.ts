@@ -40,3 +40,5 @@ export default defineConfig({
   // Origin blog Blogspot untuk metode CDN JsDelivr.
   origin: 'https://tahfidz-pp-abdussalam.blogspot.com',
 });
+
+// Build trigger: TAHFIDZKU PWA configuration for Blogspot CDN.
