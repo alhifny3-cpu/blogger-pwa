@@ -4,6 +4,7 @@ on:
   push:
   create:
   repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy:
