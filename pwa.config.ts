@@ -3,13 +3,13 @@ import { defineConfig } from '@/types/config';
 export default defineConfig({
   manifest: {
     id: '/',
-    name: 'My Blog',
-    short_name: 'My Blog',
-    description: 'My blog description goes here...',
+    name: 'TAHFIDZKU - Pondok Pesantren Abdussalam',
+    short_name: 'TAHFIDZKU',
+    description: "Aplikasi tahfidz, setoran Al-Qur'an, absensi, halaqah, dan layanan santri Pondok Pesantren Abdussalam.",
     dir: 'auto',
-    lang: 'en-US',
-    background_color: '#fff',
-    theme_color: '#fff',
+    lang: 'id-ID',
+    background_color: '#F7FAF8',
+    theme_color: '#087A55',
     display: 'standalone',
     orientation: 'natural',
     scope: '/',
@@ -17,16 +17,10 @@ export default defineConfig({
     prefer_related_applications: false,
     shortcuts: [
       {
-        name: 'Shortcut 1',
-        short_name: 'Shortcut 1',
-        description: 'Shortcut 1 description goes here...',
-        url: '/search/label/shortcut-1?utm_source=homescreen',
-      },
-      {
-        name: 'Shortcut 2',
-        short_name: 'Shortcut 2',
-        description: 'Shortcut 2 description goes here...',
-        url: '/search/label/shortcut-2?utm_source=homescreen',
+        name: 'Buka Aplikasi TAHFIDZKU',
+        short_name: 'Buka Aplikasi',
+        description: 'Masuk ke aplikasi TAHFIDZKU',
+        url: '/?utm_source=homescreen',
       },
     ],
   },
@@ -35,13 +29,14 @@ export default defineConfig({
     logs: true,
   },
 
-  // OneSignal is only available if you are using cloudflare workers
+  // OneSignal hanya tersedia melalui metode Cloudflare Workers.
+  // Blogspot menggunakan CDN JsDelivr, jadi tetap nonaktif.
   oneSignal: {
-    enabled: false, // To enable OneSignal, set this to true
-    appId: '********-****-****-****-************', // Replace with your OneSignal App Id
+    enabled: false,
+    appId: '00000000-0000-0000-0000-000000000000',
     allowLocalhostAsSecureOrigin: true,
   },
 
-  // Please replace with your blog url if you are using CDN (JsDelivr)
-  origin: 'https://blogger-pwa.blogspot.com',
+  // Origin blog Blogspot untuk metode CDN JsDelivr.
+  origin: 'https://tahfidz-pp-abdussalam.blogspot.com',
 });
